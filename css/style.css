@@ -16,6 +16,11 @@ Common
 ******
 */
 
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
 /*
 ******
 Typography
@@ -26,11 +31,25 @@ Typography
   font-family: 'Fredoka', sans-serif;
 }
 
+h1 {
+  color: #e53170;
+  padding: 55px;
+}
+
+p {
+  font-size: 18px;
+}
+
 /*
 ******
 Header
 ******
 */
+
+header {
+  text-align: center;
+  margin: 25px;
+}
 
 /*
 ******
