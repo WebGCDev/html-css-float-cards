@@ -21,6 +21,12 @@ Common
   margin: 0 auto;
 }
 
+.clearfix::after {
+  display: block
+  content: '';
+  clear: both
+}
+
 /*
 ******
 Typography
@@ -33,7 +39,8 @@ Typography
 
 h1 {
   color: #e53170;
-  padding: 55px;
+  margin-bottom: 30px;
+  padding: 25px;
 }
 
 p {
@@ -56,3 +63,18 @@ header {
 Main
 ******
 */
+
+
+
+.team > .col {
+  height: 100px;
+  width: calc(100% / 4 - 20px);
+  background-color: #0f0e17;
+  border: 2px solid #012501;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  color: #fffffe;
+  }
+
+
